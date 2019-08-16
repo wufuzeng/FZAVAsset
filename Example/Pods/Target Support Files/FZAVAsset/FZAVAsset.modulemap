@@ -1,0 +1,6 @@
+framework module FZAVAsset {
+  umbrella header "FZAVAsset-umbrella.h"
+
+  export *
+  module * { export * }
+}

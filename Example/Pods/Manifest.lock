@@ -1,0 +1,16 @@
+PODS:
+  - FZAVAsset (0.1.0)
+
+DEPENDENCIES:
+  - FZAVAsset (from `../`)
+
+EXTERNAL SOURCES:
+  FZAVAsset:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZAVAsset: d740ddcef08cb5cdd46e82fceed52f8c1968e8f4
+
+PODFILE CHECKSUM: bbd472ae3a35393d423fa89b745a78668715b2e5
+
+COCOAPODS: 1.8.0.beta.1

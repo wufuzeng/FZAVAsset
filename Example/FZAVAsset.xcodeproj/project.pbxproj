@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A2F467A4E03759061152FCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A2F467A4E03759061152FCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		23300BE054BA9FB8D3B46D86 /* Pods-FZAVAsset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZAVAsset_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZAVAsset_Tests/Pods-FZAVAsset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		306A8D0B15F7E27A3278C31E /* Pods-FZAVAsset_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZAVAsset_Example.debug.xcconfig"; path = "Target Support Files/Pods-FZAVAsset_Example/Pods-FZAVAsset_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZAVAsset_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZAVAsset_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB7E21635A4B2B4AD552C33A /* Pods-FZAVAsset_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZAVAsset_Example.release.xcconfig"; path = "Target Support Files/Pods-FZAVAsset_Example/Pods-FZAVAsset_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2F41FDCED3A5E73C15E0C15 /* Pods-FZAVAsset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZAVAsset_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZAVAsset_Tests/Pods-FZAVAsset_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFF119271ED1D0130DABFFF0 /* FZAVAsset.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZAVAsset.podspec; path = ../FZAVAsset.podspec; sourceTree = "<group>"; };
+		CFF119271ED1D0130DABFFF0 /* FZAVAsset.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZAVAsset.podspec; path = ../FZAVAsset.podspec; sourceTree = "<group>"; };
 		DC8BEC726C0ED4ECDD8337C9 /* Pods_FZAVAsset_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZAVAsset_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2444CDF2244856BEED04D96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2444CDF2244856BEED04D96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				23300BE054BA9FB8D3B46D86 /* Pods-FZAVAsset_Tests.debug.xcconfig */,
 				B2F41FDCED3A5E73C15E0C15 /* Pods-FZAVAsset_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZZ7QJD8PMQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 306A8D0B15F7E27A3278C31E /* Pods-FZAVAsset_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZAVAsset/FZAVAsset-Prefix.pch";
 				INFOPLIST_FILE = "FZAVAsset/FZAVAsset-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = AB7E21635A4B2B4AD552C33A /* Pods-FZAVAsset_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZAVAsset/FZAVAsset-Prefix.pch";
 				INFOPLIST_FILE = "FZAVAsset/FZAVAsset-Info.plist";
