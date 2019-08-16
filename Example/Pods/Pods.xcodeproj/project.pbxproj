@@ -16,6 +16,12 @@
 		51D297CA5AA80507E16FAC6816A86145 /* Pods-FZAVAsset_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2E55B87A408E47C07429B12B94AE4 /* Pods-FZAVAsset_Tests-dummy.m */; };
 		60B9241223068C9F00F7A818 /* FZAVAssetExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9241023068C9F00F7A818 /* FZAVAssetExport.h */; };
 		60B9241323068C9F00F7A818 /* FZAVAssetExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9241123068C9F00F7A818 /* FZAVAssetExport.m */; };
+		60B9241623068E0B00F7A818 /* FZAVAssetAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9241423068E0B00F7A818 /* FZAVAssetAuthorization.h */; };
+		60B9241723068E0B00F7A818 /* FZAVAssetAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9241523068E0B00F7A818 /* FZAVAssetAuthorization.m */; };
+		60B9241A23068EA800F7A818 /* FZAVAssetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9241823068EA800F7A818 /* FZAVAssetInfo.h */; };
+		60B9241B23068EA800F7A818 /* FZAVAssetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9241923068EA800F7A818 /* FZAVAssetInfo.m */; };
+		60B9241E23068F2E00F7A818 /* FZAVAssetAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9241C23068F2E00F7A818 /* FZAVAssetAlbum.h */; };
+		60B9241F23068F2E00F7A818 /* FZAVAssetAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9241D23068F2E00F7A818 /* FZAVAssetAlbum.m */; };
 		B7E59A5D9BE1572BB20BFEA274D082CB /* FZAVAsset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966156F55E8A94FB8FE40BDA8E1FB98 /* FZAVAsset-dummy.m */; };
 		C24CA662056B2C9F43AD4E3064DFA453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FC88D301ADE1BE24898A41143E0A98CF /* Pods-FZAVAsset_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E7E8BFD95AA9938EBA0084C7F38B8 /* Pods-FZAVAsset_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +62,12 @@
 		5640088F4B3D9DD069CFF0D9932AB508 /* Pods-FZAVAsset_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZAVAsset_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		60B9241023068C9F00F7A818 /* FZAVAssetExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FZAVAssetExport.h; path = FZAVAsset/Classes/FZAVAssetExport.h; sourceTree = "<group>"; };
 		60B9241123068C9F00F7A818 /* FZAVAssetExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FZAVAssetExport.m; path = FZAVAsset/Classes/FZAVAssetExport.m; sourceTree = "<group>"; };
+		60B9241423068E0B00F7A818 /* FZAVAssetAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAVAssetAuthorization.h; sourceTree = "<group>"; };
+		60B9241523068E0B00F7A818 /* FZAVAssetAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAVAssetAuthorization.m; sourceTree = "<group>"; };
+		60B9241823068EA800F7A818 /* FZAVAssetInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAVAssetInfo.h; sourceTree = "<group>"; };
+		60B9241923068EA800F7A818 /* FZAVAssetInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAVAssetInfo.m; sourceTree = "<group>"; };
+		60B9241C23068F2E00F7A818 /* FZAVAssetAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAVAssetAlbum.h; sourceTree = "<group>"; };
+		60B9241D23068F2E00F7A818 /* FZAVAssetAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAVAssetAlbum.m; sourceTree = "<group>"; };
 		632EA9E30E0218D44FF9A5076837D45A /* Pods-FZAVAsset_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZAVAsset_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E6E887B35E227575951DC4DEA5D1675 /* Pods-FZAVAsset_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZAVAsset_Tests-umbrella.h"; sourceTree = "<group>"; };
 		810876F790B8E7D3DA473A5E3C7F7DD5 /* FZAVAsset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZAVAsset.modulemap; sourceTree = "<group>"; };
@@ -154,8 +166,14 @@
 			isa = PBXGroup;
 			children = (
 				82880DB180F0F549376DEDB80CF86C4A /* ReplaceMe.m */,
+				60B9241423068E0B00F7A818 /* FZAVAssetAuthorization.h */,
+				60B9241523068E0B00F7A818 /* FZAVAssetAuthorization.m */,
 				60B9241023068C9F00F7A818 /* FZAVAssetExport.h */,
 				60B9241123068C9F00F7A818 /* FZAVAssetExport.m */,
+				60B9241823068EA800F7A818 /* FZAVAssetInfo.h */,
+				60B9241923068EA800F7A818 /* FZAVAssetInfo.m */,
+				60B9241C23068F2E00F7A818 /* FZAVAssetAlbum.h */,
+				60B9241D23068F2E00F7A818 /* FZAVAssetAlbum.m */,
 				CBD5068D338EF9BF3AD822EB401E2ABD /* Pod */,
 				92C8C503A3740AD842C320616D31BA94 /* Support Files */,
 			);
@@ -234,7 +252,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B9241A23068EA800F7A818 /* FZAVAssetInfo.h in Headers */,
+				60B9241623068E0B00F7A818 /* FZAVAssetAuthorization.h in Headers */,
 				60B9241223068C9F00F7A818 /* FZAVAssetExport.h in Headers */,
+				60B9241E23068F2E00F7A818 /* FZAVAssetAlbum.h in Headers */,
 				158A1AF93E6C3C4D5749B7C3661CB94E /* FZAVAsset-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,9 +400,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B9241B23068EA800F7A818 /* FZAVAssetInfo.m in Sources */,
+				60B9241F23068F2E00F7A818 /* FZAVAssetAlbum.m in Sources */,
 				60B9241323068C9F00F7A818 /* FZAVAssetExport.m in Sources */,
 				B7E59A5D9BE1572BB20BFEA274D082CB /* FZAVAsset-dummy.m in Sources */,
 				08DC40A6FA1ABDCC34AD6D5148C6A81D /* ReplaceMe.m in Sources */,
+				60B9241723068E0B00F7A818 /* FZAVAssetAuthorization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
