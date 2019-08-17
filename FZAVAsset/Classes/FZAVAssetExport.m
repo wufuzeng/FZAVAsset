@@ -296,10 +296,10 @@
             videoComposition.renderSize = assetVideo.naturalSize;
             
             AVAssetTrack *videoTrack = [[composition tracksWithMediaType:AVMediaTypeVideo] firstObject];
-            
+            //图层指令
             AVMutableVideoCompositionLayerInstruction *passThroughLayer =
             [AVMutableVideoCompositionLayerInstruction videoCompositionLayerInstructionWithAssetTrack:videoTrack];
-            
+            //工程指令
             AVMutableVideoCompositionInstruction *passThroughInstruction =
             [AVMutableVideoCompositionInstruction videoCompositionInstruction];
             passThroughInstruction.timeRange = CMTimeRangeMake(kCMTimeZero, [composition duration]);
